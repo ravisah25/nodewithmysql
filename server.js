@@ -42,3 +42,18 @@ app.listen(3000, () => {
     console.log("3000");
 });
 //first brranch  
+
+
+
+// Reading a file in node asynchronously/ non-blocking
+
+// var fs = require('fs'); 
+// fs.readFile('DATA', 'utf8', function(err, contents) {
+//     console.log(contents);
+// });
+// console.log('after calling readFile');
+// Reading a file in node asynchronously/blocking
+
+// var fs = require('fs'); 
+// var contents = fs.readFileSync('DATA', 'utf8');
+// console.log(contents);
